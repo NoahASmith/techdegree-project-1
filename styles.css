@@ -22,7 +22,7 @@ a {
   color:#696969;
 }
 a:hover {
-  color: midnightblue;
+  color: black;
 }
 
 /* Section Styles */
@@ -76,10 +76,11 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 5px solid white;
-  transition: all .5s;
+  border-color: rgba(82,186,179, .3)
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(-5deg);
+  transform: scale(1.2) rotate(-7deg);
 }
 
 
@@ -117,7 +118,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: midnightblue;
+  border-color:  black;
 }
 
 ul.skills {
@@ -226,7 +227,7 @@ img.logo {
 }
 
 .contact a:hover {
-	color: midnightblue;
+	color: black;
 }
 
 
@@ -286,4 +287,3 @@ img.logo {
     margin: 40px auto;
   }
 }
-
